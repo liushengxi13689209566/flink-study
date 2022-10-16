@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="opt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/opt/flink-azure-fs-hadoop-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-shaded-netty-tcnative-dynamic-2.0.44.Final-15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-python_2.12-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-cep-scala_2.12-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-gs-fs-hadoop-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-gelly-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-shaded-zookeeper-3.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-s3-fs-presto-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-oss-fs-hadoop-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-state-processor-api-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-gelly-scala_2.12-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-queryable-state-runtime-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-s3-fs-hadoop-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-table-planner_2.12-1.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opt/flink-sql-client-1.15.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

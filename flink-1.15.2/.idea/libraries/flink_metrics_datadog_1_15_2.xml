@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="flink-metrics-datadog-1.15.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/metrics-datadog/flink-metrics-datadog-1.15.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

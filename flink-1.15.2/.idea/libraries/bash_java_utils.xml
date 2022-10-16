@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bash-java-utils">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/bash-java-utils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

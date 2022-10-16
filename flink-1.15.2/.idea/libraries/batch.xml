@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="batch">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/examples/batch/ConnectedComponents.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/batch/WordCount.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/batch/PageRank.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/batch/EnumTriangles.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/batch/DistCp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/batch/WebLogAnalysis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/batch/TransitiveClosure.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/batch/KMeans.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

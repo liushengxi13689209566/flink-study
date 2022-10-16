@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="table">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/examples/table/GettingStartedExample.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/table/AdvancedFunctionsExample.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/table/UpdatingTopCityExample.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/table/StreamWindowSQLExample.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/table/WordCountSQLExample.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/table/StreamSQLExample.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/table/ChangelogSocketExample.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

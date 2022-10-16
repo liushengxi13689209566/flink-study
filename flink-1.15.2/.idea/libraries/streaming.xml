@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="streaming">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/examples/streaming/TopSpeedWindowing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/streaming/StateMachineExample.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/streaming/SocketWindowWordCount.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/streaming/WordCount.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/streaming/WindowJoin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/streaming/Iteration.jar!/" />
+      <root url="jar://$PROJECT_DIR$/examples/streaming/SessionWindowing.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
