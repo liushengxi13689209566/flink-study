@@ -20,6 +20,7 @@ public class ClickSource implements SourceFunction<Event> {
             String url = urls[random.nextInt(urls.length)];
             sourceContext.collect(new Event(user, url, System.currentTimeMillis()));
             Thread.sleep(1000);
+            // 一秒钟随机产生：一条 enevt 数据
         }
     }
 
