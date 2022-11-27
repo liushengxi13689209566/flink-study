@@ -1,3 +1,19 @@
-mary, ./1 ,1000
-Bob, ./2222 ,200
-Tom, ./1 ,1700
+mary, ./1, 1000
+Bob, ./2222 ,4000
+Tom, ./333 ,1700
+Tom, ./333 ,5000
+data:> Event{user='mary', url='./1', timestamp=1970-01-01 08:00:01.0}
+data:> Event{user='mary', url='./1', timestamp=1970-01-01 08:00:02.0}
+data:> Event{user='Bob', url='./2222', timestamp=1970-01-01 08:00:04.0}
+data:> Event{user='Tom', url='./333', timestamp=1970-01-01 08:00:05.0}
+data:> Event{user='Tom', url='./333', timestamp=1970-01-01 08:00:10.0}
+data:> Event{user='Tom', url='./333', timestamp=1970-01-01 08:00:12.0} //达到 0～10s 的水位线
+UrlViewCount{url='./1', count=2, winStart=1970-01-01 08:00:00.0, winEnd=1970-01-01 08:00:10.0}
+UrlViewCount{url='./333', count=1, winStart=1970-01-01 08:00:00.0, winEnd=1970-01-01 08:00:10.0}
+// 因为10s内的数据就只有一个，所以就是 1
+UrlViewCount{url='./2222', count=1, winStart=1970-01-01 08:00:00.0, winEnd=1970-01-01 08:00:10.0}
+ data:> Event{user='Tom', url='./333', timestamp=1970-01-01 08:00:02.0}
+UrlViewCount{url='./333', count=2, winStart=1970-01-01 08:00:00.0, winEnd=1970-01-01 08:00:10.0}
+// 0～10 秒的窗口在12秒的时候触发了计算，此数据属于迟到数据，因此直接发生计算。
+data:> Event{user='mary', url='./1', timestamp=1970-01-01 08:00:01.0}
+UrlViewCount{url='./1', count=3, winStart=1970-01-01 08:00:00.0, winEnd=1970-01-01 08:00:10.0}
